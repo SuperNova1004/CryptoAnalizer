@@ -3,7 +3,7 @@ package ru.javarush.bogatov.cryptoanalizer.constants;
 import java.io.File;
 
 public class Constants {
-    private static final String rus = "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ";
+    private static final String rus = "ЙЦУКЕЁНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ";
     private static final String eng = "QWERTYUIOPASDFGHJKLZXCVBNM";
     private static final String cypher = "0123456789";
     private static final String z = "!@#$%^&*()[]{}";
