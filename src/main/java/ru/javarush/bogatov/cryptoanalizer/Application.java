@@ -24,7 +24,7 @@ public class Application {
             String[] parameters = Arrays.copyOfRange(args, 1, args.length);
             result = mainController.doAction(action, parameters);
         } else {
-            throw new AppException();
+            throw new AppException("no args");
         }
         return result;
     }

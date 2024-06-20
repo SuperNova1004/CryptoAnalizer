@@ -21,7 +21,7 @@ public enum Actions {
             Action action = value.action;
             return action;
         } catch (IllegalArgumentException e) {
-            throw new AppException();
+            throw new AppException("not found " + actionName, e);
         }
     }
 }
