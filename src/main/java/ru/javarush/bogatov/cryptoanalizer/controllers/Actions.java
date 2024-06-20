@@ -3,7 +3,7 @@ package ru.javarush.bogatov.cryptoanalizer.controllers;
 import ru.javarush.bogatov.cryptoanalizer.commands.Action;
 import ru.javarush.bogatov.cryptoanalizer.commands.Decoder;
 import ru.javarush.bogatov.cryptoanalizer.commands.Encoder;
-import ru.javarush.bogatov.cryptoanalizer.exception.AppException;
+import ru.javarush.bogatov.cryptoanalizer.exceptions.AppException;
 
 public enum Actions {
     ENCODE(new Encoder()),
